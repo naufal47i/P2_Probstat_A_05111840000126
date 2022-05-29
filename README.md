@@ -47,7 +47,7 @@ SD_before
 ```
 Maka hasilnya : 
 </br>
-![1a-2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a2.jpg)
+![1a1](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a1.jpg)
 </br>
 
 Standar deviasi setelah aktivitas adalah
@@ -57,7 +57,7 @@ SD_after
 ```
 Maka hasilnya : 
 </br>
-![1a2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a1.jpg)
+![1a2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a2.jpg)
 
 #### 1b
 carilah nilai t (p-value)
