@@ -85,8 +85,8 @@ qchisq(p = 0.05, df = 2, lower.tail=FALSE)
 
 # Soal 4
 # 4a
-# Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
-# 2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan
+# Buatlah masing masing  jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
+# 2,grup 3). Lalu Gambarkan  plot kuantil normal untuk setiap kelompok dan
 # lihat apakah ada outlier utama dalam homogenitas varians.
 
 myFile  <- read.table(url("https://rstatisticsandresearch.weebly.com/uploads/1/0/2/6/1026585/onewayanova.txt"))
@@ -104,7 +104,7 @@ group2 <- subset(myFile, V1=="Kucing Hitam")
 group3 <- subset(myFile, V1=="Kucing Putih")
 
 # 4b
-# carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang
+# cari  atau periksa  Homogeneity of variances nya , Berapa nilai p yang
 # didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
 bartlett.test(Length~V1, data=dataoneway)
 
