@@ -11,7 +11,7 @@
 ### Nomor 1 
 Seorang peneliti melakukan penelitian mengenai pengaruh aktivitas A terhadap kadar saturasi oksigen pada manusia. Peneliti tersebut mengambil sampel sebanyak 9 responden. Pertama, sebelum melakukan aktivitas A, peneliti mencatat kadar saturasi oksigen dari 9 responden tersebut. Kemudian, 9 responden tersebut diminta melakukan aktivitas A. Setelah 15 menit, peneliti tersebut mencatat kembali kadar saturasi oksigen dari 9 responden tersebut. Berikut data dari 9 responden mengenai kadar saturasi oksigen sebelum dan sesudah melakukan aktivitas A
 
-![soal 1](https://user-images.githubusercontent.com/70510279/170801862-fb8feada-e470-4bdd-90c8-2b1b050563ca.jpg)
+![soal 1](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1.jpg)
 
 Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari responden ke-3 ketika belum melakukan aktivitas 𝐴 sebanyak 67, dan setelah melakukan aktivitas 𝐴 sebanyak 70.
 
@@ -38,7 +38,7 @@ Setelah itu dilihat hasil framenya sebagai berikut
 ```
 print(my_data)
 ```
-![1a-1](https://user-images.githubusercontent.com/70510279/170801700-5a72cc8a-a5e8-4331-9466-534b5adba1b0.jpg)
+![1a](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a.jpg)
 
 Selanjutnya mencari standar deviasinya. Standar deviasi sebelum aktivitas adalah
 ```
@@ -47,7 +47,7 @@ SD_before
 ```
 Maka hasilnya : 
 </br>
-![1a-2](https://user-images.githubusercontent.com/70510279/170802086-33f51947-7316-4eb1-a173-8b27355b2c21.jpg)
+![1a-2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a2.jpg)
 </br>
 
 Standar deviasi setelah aktivitas adalah
@@ -57,7 +57,7 @@ SD_after
 ```
 Maka hasilnya : 
 </br>
-![1a-3](https://user-images.githubusercontent.com/70510279/170802089-d7e550cd-e308-41a0-9881-dee36fcec0f8.jpg)
+![1a2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a1.jpg)
 
 #### 1b
 carilah nilai t (p-value)
@@ -71,7 +71,7 @@ t.test(before, after, alternative = "greater", var.equal = FALSE)
 Maka hasilnya adalah: 
 </br>
 
-![1b](https://user-images.githubusercontent.com/70510279/170802497-1c8e11ec-b849-46df-970c-ae7a53990355.jpg)
+![1b](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1b.jpg)
 
 #### 1c
 tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen, sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
