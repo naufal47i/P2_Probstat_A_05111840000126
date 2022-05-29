@@ -82,7 +82,7 @@ Langkah pertama yaitu melihat hasil komparasi dua variabel berikut
 ```
 var.test(before, after)
 ```
-![1c-1](https://user-images.githubusercontent.com/70510279/170803286-8d17ff49-ab43-4c8d-b68f-8252e50de12c.jpg)
+![1c](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c.jpg)
 
 </br>
 
@@ -90,7 +90,7 @@ Selanjutnya, untuk melihat pengaruh jika tingkat signifikasi 5% dan tidak ada pe
 ```
 t.test(before, after, var.equal = TRUE)
 ```
-![1c-2](https://user-images.githubusercontent.com/70510279/170803288-c8b36ba6-954b-49b3-83e1-51e6236efe74.jpg)
+![1c2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c2.jpg)
 
 </br>
 
@@ -107,7 +107,7 @@ Apakah Anda setuju dengan klaim tersebut?
 #### 2b
 Jelaskan maksud dari output yang dihasilkan!
 
-![2c](https://user-images.githubusercontent.com/70510279/170825033-001339b6-b1c3-42ab-b928-162ead8d4fbe.jpg)
+![2b](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2b.jpg)
 
 Diketahui n = 100, Rata-Rata (X̄) = 23500, dan standar deviasi(σ) = 3900
 Maka null hipotesis adalah 
@@ -125,11 +125,11 @@ Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
 Untuk mencari nilai z nya yaitu 
 </br>
-![image-removebg-preview](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c.png)
 
 Lalu mencari nilai p-value nya sebagai berikut
-![image-removebg-preview (1)](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c1.png)
-![image-removebg-preview (2)](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c2.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c1.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c2.png)
 
 Sehingga kesimpulan yang didapat adalah bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
 
@@ -143,11 +143,11 @@ Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil d
 H0 dan H1
 dilakukan perhitungan H0 sebagai berikut
 </br>
-![image](https://user-images.githubusercontent.com/70510279/170837176-254c2846-c1b7-47c0-aa9f-c3b2e5db149a.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3a.png)
 </br>
 dilakukan perhitungan H1 sebagai berikut
 </br>
-![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3a2.png)
 
 #### 3b
 Hitung Sampel Statistik
@@ -155,7 +155,7 @@ Penghitungan dilakukan sebagai berikut
 ```
 tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, mean.y =2.79 , s.y = 1.32, n.y = 27, alternative = "greater", var.equal = TRUE)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170847031-6d2d82a4-dad1-4e70-b204-5782eb790bf7.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3b.png)
 
 
 #### 3c
@@ -170,13 +170,13 @@ library(mosaic)
 ```
 plotDist(dist='t', df=2, col="blue")
 ```
-![image](https://user-images.githubusercontent.com/70510279/170845594-721682ce-705c-4423-b6e2-5d3ad48e10cf.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3c.png)
 
 #### 3d
 Nilai kritikal
 Adapun untuk mendapatkan nilai kritikal bisa menggunakan `qchisq` dengan `df=2` sesuai soal sebelumnya
 
-![image](https://user-images.githubusercontent.com/70510279/170846422-617fe5b8-b90c-4e5a-9533-dfec22c62ff3.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3d.png)
 
 #### 3e
 Keputusan
@@ -238,7 +238,7 @@ qqnorm(group1$Length)
 qqline(group1$Length)
 ```
 
-![image](https://user-images.githubusercontent.com/70510279/170848819-3b70668f-ba55-4d57-b297-a14cb7d7218a.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/4c.png)
 
 #### 4d
 Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan dari H0?
@@ -286,7 +286,7 @@ Selanjutnya membaca file GTL.csv dari documents
 GTL <- read_csv("GTL.csv")
 head(GTL)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851339-6020c531-8d07-4a20-a9ab-4db04a1110e0.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5a.png)
 
 </br>
 
@@ -294,7 +294,7 @@ Lakukan observasi pada data
 ```
 str(GTL)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851373-4512e70e-81ed-4a12-bf5e-5408d4403678.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5a1.png)
 </br>
 
 Selanjutnya lakukan viasualisasi menggunakan simple plot yaitu sebagai berikut
@@ -302,7 +302,7 @@ Selanjutnya lakukan viasualisasi menggunakan simple plot yaitu sebagai berikut
 qplot(x = Temp, y = Light, geom = "point", data = GTL) +
   facet_grid(.~Glass, labeller = label_both)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851403-3b91fe4f-ab41-4b3e-8aca-066a27607971.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5a2.png)
 
 #### 5b
 Lakukan uji ANOVA dua arah
@@ -312,7 +312,7 @@ GTL$Glass <- as.factor(GTL$Glass)
 GTL$Temp_Factor <- as.factor(GTL$Temp)
 str(GTL)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851438-509ae870-a9a1-420e-adb9-3239f6a6dfb6.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5b.png)
 
 </br>
 
@@ -321,7 +321,7 @@ Selanjutnya melakukan analisis of variance (aov) yaitu sebagai berikut
 anova <- aov(Light ~ Glass*Temp_Factor, data = GTL)
 summary(anova)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851507-b318c577-8c71-4a3c-b391-1c406e364abb.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5b2.png)
 
 #### 5c
 Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
@@ -333,7 +333,7 @@ data_summary <- group_by(GTL, Glass, Temp) %>%
   arrange(desc(mean))
 print(data_summary)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851578-fee77749-6fff-4abf-ad36-62ef2ec84c3d.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5c.png)
 
 </br>
 
@@ -345,8 +345,8 @@ Menggunakan fungsi `TukeyHSD` sebagai berikut
 tukey <- TukeyHSD(anova)
 print(tukey)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851658-f097be04-5017-404e-99b6-0ebdebb284d9.png)
-![image](https://user-images.githubusercontent.com/70510279/170851669-260742aa-75b0-47e2-9d8a-dabf318b5082.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5d.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5d1.png)
 
 #### 5e
 Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
@@ -356,7 +356,7 @@ Awalnya yaitu membuat compact letter display sebagai berikut
 tukey.cld <- multcompLetters4(anova, tukey)
 print(tukey.cld)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851727-729875df-5aaf-4897-b97f-08b91127347e.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5e.png)
 
 </br>
 Tambahkan compact letter display tersebut ke tabel dengan means(rata-rata) dan sd
@@ -366,4 +366,4 @@ cld <- as.data.frame.list(tukey.cld$`Glass:Temp_Factor`)
 data_summary$Tukey <- cld$Letters
 print(data_summary)
 ```
-![image](https://user-images.githubusercontent.com/70510279/170851749-d1e4fd97-1020-4f52-bb1a-7d020a508093.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/5e2.png)
