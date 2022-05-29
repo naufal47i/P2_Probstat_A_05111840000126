@@ -20,27 +20,27 @@ Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 
 </br>
 
-Langkah pertama penyelesaian adalah memasukkan semua data yang ada pada tabel pada sebuah variabel sebagai berikut
+Pertama memasukkan semua data yang ada pada tabel pada sebuah variabel sebagai berikut
 ```
 before <- c(78, 75, 67, 77, 70, 72, 28, 74, 77)
 ```
 ```
 after <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
 ```
-Setelah dimasukkan semua datanya, maka dilakukan cek data menggunakan `data.frame` yaitu
+Setelah data dimasukkan, maka dilakukan cek data menggunakan `data.frame` yaitu
 ```
 my_data <- data.frame(
     group = rep(c("sebelum", "sesudah"), each = 9),
     saturation = c(before, after)
 )
 ```
-Setelah itu dilihat hasil framenya sebagai berikut
+lalu hasil framenya dapat dilihat sebagai berikut
 ```
 print(my_data)
 ```
 ![1a](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a.jpg)
 
-Selanjutnya mencari standar deviasinya. Standar deviasi sebelum aktivitas adalah
+Selanjutnya mencari standar deviasi. Standar deviasi sebelum aktivitas adalah
 ```
 SD_before <- sd(before)
 SD_before
@@ -223,7 +223,7 @@ group2 <- subset(myFile, Group=="Kucing Hitam")
 group3 <- subset(myFile, Group=="Kucing Putih")
 ```
 #### 4b
-carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+cari atau periksa Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
 
 Mencari Homogeneity of variances bisa menggunakan command sebagai berikut
 ```
