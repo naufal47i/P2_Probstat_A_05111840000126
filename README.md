@@ -1,9 +1,9 @@
 
 # PRAKTIKUM PROBSTAT 2 2022  
 
+#### Kelas   : Probabilitas dan Statistik A
 #### Nama    : Muhammad Naufal Arieffaza
 #### NRP     : 05111840000126
-#### Kelas   : Probabilitas dan Statistik A
 
 </br>
 
