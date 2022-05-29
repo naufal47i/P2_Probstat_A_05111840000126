@@ -11,7 +11,7 @@
 ## No. 1 
 Seorang peneliti melakukan penelitian mengenai pengaruh aktivitas A terhadap kadar saturasi oksigen pada manusia. Peneliti tersebut mengambil sampel sebanyak 9 responden. Pertama, sebelum melakukan aktivitas A, peneliti mencatat kadar saturasi oksigen dari 9 responden tersebut. Kemudian, 9 responden tersebut diminta melakukan aktivitas A. Setelah 15 menit, peneliti tersebut mencatat kembali kadar saturasi oksigen dari 9 responden tersebut. Berikut data dari 9 responden mengenai kadar saturasi oksigen sebelum dan sesudah melakukan aktivitas A
 
-![soal 1](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1.jpg)
 
 Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari responden ke-3 ketika belum melakukan aktivitas 𝐴 sebanyak 67, dan setelah melakukan aktivitas 𝐴 sebanyak 70.
 
@@ -39,7 +39,7 @@ lalu hasil framenya dapat dilihat sebagai berikut
 ```
 print(my_data)
 ```
-![1a](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a.jpg)
 
 Selanjutnya mencari standar deviasi. Standar deviasi sebelum aktivitas adalah
 ```
@@ -48,7 +48,7 @@ SD_before
 ```
 Maka hasilnya : 
 </br>
-![1a1](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a1.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a1.jpg)
 </br>
 
 Standar deviasi setelah aktivitas adalah
@@ -58,7 +58,7 @@ SD_after
 ```
 Maka hasilnya : 
 </br>
-![1a2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a2.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1a2.jpg)
 
 #### 1b
 carilah nilai t (p-value)
@@ -83,7 +83,7 @@ Langkah pertama yaitu melihat hasil komparasi dua variabel berikut
 ```
 var.test(before, after)
 ```
-![1c](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c.jpg)
 
 </br>
 
@@ -91,7 +91,7 @@ Selanjutnya, untuk melihat pengaruh jika tingkat signifikasi 5% dan tidak ada pe
 ```
 t.test(before, after, var.equal = TRUE)
 ```
-![1c2](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c2.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1c2.jpg)
 
 </br>
 
@@ -108,7 +108,7 @@ Apakah Anda setuju dengan klaim tersebut?
 #### 2b
 Jelaskan maksud dari output yang dihasilkan!
 
-![2b](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2b.jpg)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2b.jpg)
 
 Diketahui n = 100, Rata-Rata (X̄) = 23500, dan standar deviasi(σ) = 3900
 Maka null hipotesis adalah 
