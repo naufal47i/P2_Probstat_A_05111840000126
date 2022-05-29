@@ -8,7 +8,7 @@
 </br>
 
 
-### Nomor 1 
+## No. 1 
 Seorang peneliti melakukan penelitian mengenai pengaruh aktivitas A terhadap kadar saturasi oksigen pada manusia. Peneliti tersebut mengambil sampel sebanyak 9 responden. Pertama, sebelum melakukan aktivitas A, peneliti mencatat kadar saturasi oksigen dari 9 responden tersebut. Kemudian, 9 responden tersebut diminta melakukan aktivitas A. Setelah 15 menit, peneliti tersebut mencatat kembali kadar saturasi oksigen dari 9 responden tersebut. Berikut data dari 9 responden mengenai kadar saturasi oksigen sebelum dan sesudah melakukan aktivitas A
 
 ![soal 1](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1.jpg)
@@ -20,7 +20,8 @@ Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 
 </br>
 
-Pertama memasukkan semua data yang ada pada tabel pada sebuah variabel sebagai berikut
+
+Pertama masukkan semua data yang ada pada tabel pada sebuah variabel sebagai berikut
 ```
 before <- c(78, 75, 67, 77, 70, 72, 28, 74, 77)
 ```
@@ -74,7 +75,7 @@ Maka hasilnya adalah:
 ![1b](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1b.jpg)
 
 #### 1c
-tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen, sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
+tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen, sebelum dan sesudah melakukan aktivitas A jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas A”
 
 </br>
 
@@ -96,7 +97,7 @@ t.test(before, after, var.equal = TRUE)
 
 Bisa dilihat bahwa mean dan convidence sama dengan 1b, yang berbeda adalah p-value dan df. Sehingga tidak memiliki pengaruh yang signifikan secara statistika
 
-### Nomor 2
+## No. 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan 2 library seperti referensi pada modul).
 
 #### 2a
@@ -133,7 +134,7 @@ Lalu mencari nilai p-value nya sebagai berikut
 
 Sehingga kesimpulan yang didapat adalah bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
 
-### Nomor 3
+## No. 3
 Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
 </br>
 ![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3.png)
@@ -190,7 +191,7 @@ Maka keputusan dapat dibuat dengan `t.test`
 Kesimpulan
 Kesimpulan yang didapatkan yaitu perbedaan rata-rata yang terjadi tidak ada jika dilihat dari uji statistik dan akan ada tetapi tidak signifikan jika dipengaruhi nilai kritikal.
 
-### Nomor 4
+## No. 4
 Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing.
 Jika : diketahui dataset https://intip.in/datasetprobstat1
 H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya sama. Maka Kerjakan atau Carilah:
@@ -267,7 +268,7 @@ ggplot(dataoneway, aes(x = Group, y = Length)) + geom_boxplot(fill = "grey80", c
 ```
 
 
-### Nomor 5
+## No. 5
 Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: Data Hasil Eksperimen. Dengan data tersebut:
 #### 5a
 Buatlah plot sederhana untuk visualisasi data
