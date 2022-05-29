@@ -13,10 +13,10 @@ Seorang peneliti melakukan penelitian mengenai pengaruh aktivitas A terhadap kad
 
 ![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/1.jpg)
 
-Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari responden ke-3 ketika belum melakukan aktivitas 𝐴 sebanyak 67, dan setelah melakukan aktivitas 𝐴 sebanyak 70.
+Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen dari responden ke-3 ketika belum melakukan aktivitas A sebanyak 67, dan setelah melakukan aktivitas A sebanyak 70.
 
 #### 1a
-Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
+Cari Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 
 </br>
 
@@ -212,7 +212,7 @@ myFile$Group <- as.factor(myFile$Group)
 myFile$Group = factor(myFile$Group,labels = c("Kucing Oren","Kucing Hitam","Kucing Putih"))
 ```
 
-Setelah itu, dicek apakah dia menyimpan nilai di groupnya
+Setelah itu, cek apakah menyimpan nilai di groupnya
 ```
 class(myFile$Group)
 ```
