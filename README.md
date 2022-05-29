@@ -125,11 +125,11 @@ Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
 Untuk mencari nilai z nya yaitu 
 </br>
-![image-removebg-preview](https://user-images.githubusercontent.com/70510279/170823253-92e9ca27-09f7-4d40-a51c-9fd4392bb742.png)
+![image-removebg-preview](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c.png)
 
 Lalu mencari nilai p-value nya sebagai berikut
-![image-removebg-preview (1)](https://user-images.githubusercontent.com/70510279/170823313-044b2776-38ff-49d4-bca6-455ef75db0a5.png)
-![image-removebg-preview (2)](https://user-images.githubusercontent.com/70510279/170823338-3d86d1f2-14dc-458c-af6a-eb06f0fd8333.png)
+![image-removebg-preview (1)](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c1.png)
+![image-removebg-preview (2)](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/2c2.png)
 
 Sehingga kesimpulan yang didapat adalah bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
 
@@ -147,7 +147,7 @@ dilakukan perhitungan H0 sebagai berikut
 </br>
 dilakukan perhitungan H1 sebagai berikut
 </br>
-![image](https://user-images.githubusercontent.com/70510279/170837297-542b8a9e-309b-41be-92c5-880e284beef4.png)
+![image](https://github.com/naufal47i/P2_Probstat_A_05111840000126/blob/main/Foto/3.png)
 
 #### 3b
 Hitung Sampel Statistik
